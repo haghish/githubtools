@@ -9,10 +9,12 @@ ssc install dirlist
 // =============================================================================
 sscminer, save("sscarchive") //download //remove
 
+qui erase ssclist.log
+use "archive.dta" , clear
 
 /* 
 doing a bit more with rcall
 */
 
-use "C:\Users\haghish.fardzadeh\Dropbox\STATA\MY PROGRAMS\Archive\test\Archive\archive.dta" , clear
+
 
