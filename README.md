@@ -12,6 +12,15 @@ after installing [github](https://github.com/haghish/github/) package, type:
 
 to install the latest stable release of the package. 
 
+## Mining SSC packages
+
+The `minessc` command creates a data set that list all packages hosted on SSC and also specifies the installable files that are included within each package. Optionally, it also allows you to download all packages and store them in subdirectories. Finally, it also creates a zip-file for each package, based on the release date. The command below generates a data set named archive.dta, which analyzes the SSC packages. To download and archive all of the packages, add the `download` option. For more information, read the command help file by typing `help minessc`.
+
+```js
+sscminer, save("archive.dta") 
+```
+
+
 ## Mining GitHub for Stata packages
 
 ```js
