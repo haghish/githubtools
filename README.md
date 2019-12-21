@@ -23,6 +23,8 @@ sscminer, save("archive.dta")
 
 ## Mining GitHub for Stata packages
 
+Mining Stata packages on GitHub is s complex process, because there might be Stata packages that are not recognized to be written in Stata language. Furthermore, GitHub API has a limit in the search results and thus, the mining process has to be carried out step by step, based on the frequency of the search results. The `githublistpack` program (for documentation type `help githublistpack`) carries out a consecutive search for Stata repositories and packages. In the code below, I search for 1) repositories with Stata language, 2) repositories in all languages that mention the keyword "Stata" within their repository name, description, or _README.md_ file, and combine the results. The `githublistpack` command automatically examines the repositories to see whether they are installable Stata packages. Next, I will loop through each installable Stata package to see whether it includes a dependency file, as specified with _dependency.do_ file, and then, generate the `gitget.dta` data set, which is used by the `gitget` command, in [github package](https://github.com/haghish/github). 
+
 ```js
 // mining repositories in Stata language
 githublistpack , language(Stata) append replace all in(all)  ///
