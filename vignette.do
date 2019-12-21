@@ -1,1 +1,1 @@
-//IMPORT sscminer.md
+//IMPORT minessc.md

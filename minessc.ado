@@ -1,7 +1,7 @@
 /***
 _v. 1.0.0_
 
-sscminer
+minessc
 ========
 
 mines and archives SSC packages based on their updates
@@ -9,7 +9,7 @@ mines and archives SSC packages based on their updates
 Syntax
 ------
 
-> __sscminer__ , _save(str)_ [ _download_ ]
+> __minessc__ , _save(str)_ [ _download_ ]
 
 ### options
 
@@ -21,7 +21,7 @@ Syntax
 Description
 -----------
 
-__sscminer__ mines packages on SSC server and summarizes them in a data set. 
+__minessc__ mines packages on SSC server and summarizes them in a data set. 
 it also list the files that are installable within each packages and categorizes 
 them based on the Stata programming language they are using (ado, mata, dlg, etc.)
 
@@ -32,11 +32,11 @@ Examples
 
 mine Stata packages on SSC without downloading any package
 
-        . sscminer, save("archive.dta")
+        . minessc, save("archive.dta")
 
 mine stata packages and download the files
 
-        . sscminer, save("archive.dta") download
+        . minessc, save("archive.dta") download
 
 Author
 ------
@@ -60,8 +60,8 @@ PLEASE NOTE
   intended to be used internally
 */
 
-*cap prog drop sscminer
-prog sscminer
+*cap prog drop minessc
+prog minessc
 
 	syntax [anything], save(str) [download remove]
 	
