@@ -2,7 +2,7 @@
 {it:v. 1.0.0}
 
 
-{title:sscminer}
+{title:minessc}
 
 {p 4 4 2}
 mines and archives SSC packages based on their updates
@@ -10,7 +10,7 @@ mines and archives SSC packages based on their updates
 
 {title:Syntax}
 
-{p 8 8 2} {bf:sscminer} , {it:save(str)} [ {it:download} ]
+{p 8 8 2} {bf:minessc} , {it:save(str)} [ {it:download} ]
 
 {p 4 4 2}{bf:options}
 
@@ -23,7 +23,7 @@ mines and archives SSC packages based on their updates
 {title:Description}
 
 {p 4 4 2}
-{bf:sscminer} mines packages on SSC server and summarizes them in a data set. 
+{bf:minessc} mines packages on SSC server and summarizes them in a data set. 
 it also list the files that are installable within each packages and categorizes 
 them based on the Stata programming language they are using (ado, mata, dlg, etc.)
 
@@ -36,12 +36,12 @@ originally, the archive was developed for education purpose.
 {p 4 4 2}
 mine Stata packages on SSC without downloading any package
 
-        . sscminer, save("archive.dta")
+        . minessc, save("archive.dta")
 
 {p 4 4 2}
 mine stata packages and download the files
 
-        . sscminer, save("archive.dta") download
+        . minessc, save("archive.dta") download
 
 
 {title:Author}
