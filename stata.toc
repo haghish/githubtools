@@ -4,6 +4,6 @@ d University of Göttingen
 d haghish@med.uni-goettingen.de
 d https://github.com/haghish/mine
 
-d 'miningtools': tools for mining Stata packages on SSC and GitHub
+d 'githubtools': tools for mining Stata packages on SSC and GitHub
 
-p miningtools
+p githubtools

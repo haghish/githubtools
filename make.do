@@ -1,4 +1,4 @@
-make miningtools, replace toc pkg  version(1.0)                       ///
+make githubtools, replace toc pkg  version(1.0)                       ///
      license("MIT")                                                   ///
      author("E. F. Haghish")                                          ///
      affiliation("University of Göttingen")                           ///

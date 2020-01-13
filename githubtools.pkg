@@ -1,0 +1,11 @@
+v 1.0
+d 'GITHUBTOOLS': miningtools
+d 
+d tools for mining Stata packages on SSC and GitHub
+d 
+d Distribution-Date:   20200113
+d License: MIT
+d 
+F minessc.ado
+F minessc.sthlp
+F ssclastupdate.ado
