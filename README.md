@@ -8,7 +8,7 @@ for mining GitHub repositories, SSC packages, downloading SSC packages, etc.
 
 after installing [github](https://github.com/haghish/github/) package, type:
 
-    github install haghish/mining, stable
+    github install haghish/githubtools, stable
 
 to install the latest stable release of the package. 
 
