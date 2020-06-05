@@ -1,4 +1,4 @@
-# githubtools: Mining Stata Packages to Confirm Unique Package Names and File Names
+# Mining Stata Packages to Confirm Unique Package Names and File Names
 additional tools for the Stata github package 
 
 > this package includes additional tools for the Stata's [github package](https://github.com/haghish/github/), used 
